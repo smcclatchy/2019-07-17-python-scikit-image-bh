@@ -11,9 +11,9 @@ humantime: "9:00 am - 4:30 pm"
 startdate: 2019-07-17
 enddate: 2019-07-18
 instructor: ["Juan Nuñez-Iglesias"]
-helper: ["Dave Mellert"]
+helper: ["Dave Mellert", "Jim Peterson", "Javad Noorbakhsh"]
 email: ["susan.mcclatchy@jax.org"]
-collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes: https://pad.carpentries.org/2019-07-17-python-scikit-image-bh
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -62,7 +62,7 @@ the pitch.
 {% elsif page.carpentry == "lc" %}
 {% include lc/intro.html %}
 {% endif %}
-
+Across domains, modalities, and scales of exploration, images form an integral subset of scientific measurements. Despite a deep appeal to human intuition, gaining understanding of image content remains challenging, and often relies on heuristics. Even so, the wealth of knowledge contained inside of images cannot be understated, and scikit-image, along with SciPy, provides a strong foundation upon which to build algorithms and applications for exploring this domain.
 {% comment %}
 AUDIENCE
 
@@ -183,6 +183,9 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
+
+<a href="https://www.surveymonkey.com/r/scikit-image-pre">Pre-workshop survey<\a>
+<a href="https://www.surveymonkey.com/r/scikit-image-post">Post-workshop survey<\a>
 <hr/>
 
 
@@ -193,15 +196,8 @@ Show the workshop's schedule.  Edit the items and times in the table
 to match your plans.  You may also want to change 'Day 1' and 'Day
 2' to be actual dates or days of the week.
 {% endcomment %}
-<h2 id="schedule">Schedule</h2>
+<h2 id="schedule"><a href="https://github.com/jni/jax-workshop/blob/master/workshops/2019-jax/index.ipynb">Schedule</a></h2>
 
-{% if page.carpentry == "swc" %}
-{% include sc/schedule.html %}
-{% elsif page.carpentry == "dc" %}
-{% include dc/schedule.html %}
-{% elsif page.carpentry == "lc" %}
-{% include lc/schedule.html %}
-{% endif %}
 
 {% comment %}
 Collaborative Notes
@@ -238,15 +234,6 @@ This is one of the places where people frequently make mistakes, so
 please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
-<h2 id="syllabus">Syllabus</h2>
-
-{% if page.carpentry == "swc" %}
-{% include sc/syllabus.html %}
-{% elsif page.carpentry == "dc" %}
-{% include dc/syllabus.html %}
-{% elsif page.carpentry == "lc" %}
-{% include lc/syllabus.html %}
-{% endif %}
 
 <hr/>
 
