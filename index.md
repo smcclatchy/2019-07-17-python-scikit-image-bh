@@ -184,8 +184,9 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 
-<a href="https://www.surveymonkey.com/r/scikit-image-pre">Pre-workshop survey<\a>
-<a href="https://www.surveymonkey.com/r/scikit-image-post">Post-workshop survey<\a>
+<p><a href="https://www.surveymonkey.com/r/scikit-image-pre">Pre-workshop survey</a></p>
+<p><a href="https://www.surveymonkey.com/r/scikit-image-post">Post-workshop survey</a></p>
+
 <hr/>
 
 
