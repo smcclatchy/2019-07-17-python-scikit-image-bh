@@ -218,6 +218,12 @@ e.g., '2015-06-10-esu'.
 
 <hr/>
 
+<h2 id="additional">Additional Material</h2>
+
+<p><a href="https://github.com/jni/jax-workshop/tree/8b73dcd8f24cf50fa0997e30f73e78d3f40cb45f/lectures">Other lectures</a></p>
+<p><a href="https://github.com/jni/jax-workshop/blob/8b73dcd8f24cf50fa0997e30f73e78d3f40cb45f/lectures/three_dimensional_image_processing.ipynb">3D segmentation workflow</a></p>
+<p><a href="https://github.com/jni/jax-workshop/blob/8b73dcd8f24cf50fa0997e30f73e78d3f40cb45f/lectures/three_dimensional_image_processing.ipynb">Real world use cases</a></p>
+
 {% comment %}
 SYLLABUS
 
