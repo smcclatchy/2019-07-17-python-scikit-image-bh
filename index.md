@@ -2,7 +2,7 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: ""
 venue: "The Jackson Laboratory"
-address: "Bioinformatics Training Room 1540, bldg 1, unit 5, 600 Main Street, Bar Harbor, Maine"
+address: "Bioinformatics Training Room 1540, bldg 1, unit 5, 600 Main Street, Bar Harbor, Maine | Room 4320, Farmington CT"
 country: "us"
 language: "en"
 latlng: "44.365551,-68.197043"
