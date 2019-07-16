@@ -198,7 +198,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 2' to be actual dates or days of the week.
 {% endcomment %}
 <h2 id="schedule"><a href="https://github.com/jni/jax-workshop/blob/master/workshops/2019-jax/index.ipynb">Schedule</a></h2>
-
+{% include sc/schedule.html %}
 
 {% comment %}
 Collaborative Notes
